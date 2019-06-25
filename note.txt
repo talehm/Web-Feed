@@ -1,0 +1,12 @@
+
+// TO enable iframing on firefox
+You can turn off the CSP for your entire browser in Firefox by disabling security.csp.enable in the about:config menu. If you do this, you should use an entirely separate browser for testing. For example, install Firefox Developer Edition alongside your normal browser and use that for testing (and not normal Web use).
+
+As an alternative, it should be possible to alter the Content-Security-Policy response header before it gets to your browser (via an HTTP proxy). It is also possible to do this with extensions.
+
+A Chrome extension can set its own CSP for its own chrome-extension://... pages, but it cannot alter the CSP of a normal webpage.
+
+
+SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+
+

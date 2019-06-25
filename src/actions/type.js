@@ -1,0 +1,4 @@
+export const FETCH_FEEDS = 'FETCH_FEEDS';
+export const FETCH_PROVIDERS='FETCH_PROVIDERS';
+export const FETCH_SETTINGS='FETCH_SETTINGS';
+export const FETCH_LOGS='FETCH_LOGS';

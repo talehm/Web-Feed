@@ -1,0 +1,7 @@
+body{overflow: hidden;}
+#feedsList{overflow-y: scroll !important; height: 100vh !important;}
+.addProvider svg{font-size: 50px;}
+.confirm_dialog{ color:#4dd2ff; border:1px solid groove; text-align: center; align-items: center;}
+.confirm_dialog button{ background-color:#4dd2ff; color:white; padding:10px; min-width:150px; margin:10px; }
+.confirm_dialog button:hover{cursor: pointer; color:black}
+
